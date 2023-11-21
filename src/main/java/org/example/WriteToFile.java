@@ -6,9 +6,9 @@ public class WriteToFile {
 
     public static void main(String[] args) {
         String fileName = "File14.txt";
-        try (FileWriter writer = new FileWriter(fileName)) {
+        try (FileWriter writer = new FileWriter(fileName, true)) {
 
-            writer.write("some content for the file.");
+            writer.append("more content test.");
 
             System.out.println("content successfully written to file.");
         }
