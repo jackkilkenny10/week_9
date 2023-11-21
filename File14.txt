@@ -1,1 +1,4 @@
-222222.content for file.content .
+222222.content for file.content .This line will be appended.
+Appended formatted content: 42 example 
+This line will be appended.
+Appended formatted content: 42 example 
